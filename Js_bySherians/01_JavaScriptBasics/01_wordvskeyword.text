@@ -1,0 +1,19 @@
+Word vs Keyword 
+
+Anything that javascript does not know is a word in js and anything that js knows is a keyword.
+
+For example: 
+    saqib
+    bedar 
+    is 
+    a
+    good
+    programmer
+    etc // all are words because js don't know what are these
+
+    if 
+    else
+    var
+    let
+    function
+    etc // are keyword because they have a meaning in javascript
