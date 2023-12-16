@@ -1,0 +1,17 @@
+Comments in JavaScript
+
+There are two types of comments in JavaScript:
+   
+    1. Single line comment (Syntax of single line comment is // double slash.)
+    A single comment created when you add two forwarded-slash characters one after the other, without spaces.
+
+    2. Multi-line comment (Syntax of Multi-line comment is /*  */)
+    It is created with a forwarded slash and a star.
+
+Why do we write comments?
+    
+1. Comments are ingnored by the browser, so we can express our ideas about any code that we write. 
+2. We can add comments to any code that already exists.
+3. Those comments can be useful to us in future, and it also helps your teammates.
+
+Inshort, comments do play a vital role in programming because comments facilate the communication.

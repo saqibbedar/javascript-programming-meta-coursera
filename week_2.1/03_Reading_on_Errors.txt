@@ -1,0 +1,40 @@
+Most common errors in JavaScript: 
+
+ReferenceError 
+SyntaxError 
+TypeError 
+RangeError
+
+There are some other errors in JavaScript. These other errors include: 
+
+AggregateError 
+Error 
+InternalError 
+URIError
+
+1. ReferenceError:
+A ReferenceError gets thrown when, for example, 
+one tries to use variables that haven't been declared anywhere.
+Example: console.log(username)
+
+2. SyntaxError:
+Any kind of invalid JavaScript code will cause a SyntaxError.
+Example: var a "there's no assignment operator here";
+
+3. TypeError:
+ TypeError is thrown when, for example, 
+ trying to run a method on a non-supported data type.
+ Example: "hello".pop() 
+
+ 4. RangeError:
+RangeError is thrown when we're giving a value to a function, 
+but that value is out of the allowed range of acceptable input values.
+Example: (10).toString(100); // Uncaught RangeError: toString() radix argument must be between 2 and 36
+
+if I try to use a non-existing number system, 
+such as an imaginary Base 100, 
+since this number system effectively doesn't exist in JavaScript, 
+I will get the RangeError, 
+because a non-existing Base 100 system is out of range of the number systems 
+that are available to the toString() method:
+

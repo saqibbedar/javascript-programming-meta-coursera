@@ -1,0 +1,31 @@
+"var" and "let":
+
+Variable scoping: Variables declared with "var" are function-scoped, 
+which means they are accessible within the function they are declared in. 
+Variables declared with "let" are block-scoped, which means they are only accessible within the block 
+they are declared in (e.g., within the curly braces of an if statement or a loop).
+
+Hoisting: Variables declared with "var" are hoisted to the top of their scope, 
+meaning you can use them before they are declared. 
+Variables declared with "let" are not hoisted, so you cannot use them before they are declared.
+
+Reassignment: Variables declared with "var" can be reassigned multiple times within their scope. 
+Variables declared with "let" can also be reassigned, but they cannot be redeclared within the same scope.
+
+In terms of which one to use, it is generally recommended to use "let" instead of "var" 
+for better scoping and readability. However, 
+if you need to support older browsers or have a specific use case that requires "var" behavior, 
+you can still use it.
+
+In addition to the variable declaration differences, the second code also includes a few minor updates:
+
+The use of backticks (`) instead of single quotes ('') for string interpolation in the "style" variable assignment. 
+This allows for easier concatenation of variable values within the string.
+The removal of the "message" and "style" variables in the "else" block of the "celebrateStyler" function. 
+In the first code, these variables are undefined in the "else" block, leading to an error when trying to log them. 
+In the second code, these variables are not used in the "else" block, so they are removed to avoid the error.
+
+Overall, the second code is a more modern and recommended approach to declaring variables and includes 
+some minor improvements.
+
+

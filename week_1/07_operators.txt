@@ -1,0 +1,164 @@
+What are operators?
+Operators are used to perform operations on variables and values. An operator is used to manipulate individual data items and return a result.
+
+Why operators are used?
+Operators are used to control the flow of a program that meets certain criteria.
+
+Assignment operators: Used for simple arithematic.
+You can use +, -, *, /, the numbers by just following these simple arithematic operators.
+    •  Here is how? 
+    2 + 2 = 4; Addition Operator [a = 2 + 2; console.log(a) = 4]
+    2 - 1 = 1; Subtration Operator
+    2 / 2 = 1; division Operator
+    2 * 2 = 4; Muliply Operators
+    2 % 2 = ; Modulus
+
+Logical Operators:  used in JavaScript to determine if something is true or false. For example, the logical operator named end, which you can use to check the two or more conditions are true. 
+    
+    1. And operator: use to check the two or more conditions are true. [a<10 && a>20] For this to be satisfied, both statements must be true.
+
+    2. OR operaor: checks for at least one of the statements to be true. [a>5 || a<15]
+
+    3. NOT: returns a false value if the result is true. [!]
+
+Comparsion Operators: check if they are greater than, less than, equal or not equal to each other.
+    
+    1. Greater than ( > ) 3>1
+    2. Less than ( < )    3<5
+    3. Equal to ( == ) ***Note: In JavaScript = is Assignment Operator but equal operator is ==.     3==3
+    4. Not Equal to ( != ) 3!=2
+
+
+Additional Operators: Used for multi-tasks
+
+    1.  Strict equality operator = 
+
+    2.  strict inequality operator: !==
+
+    3.  The addition assignment operator: +=
+
+
+    Detail about few special operators:
+
+1.  The logical NOT operator: !
+
+In JavaScript, the logical NOT operator's symbol is the exclamation mark: !.
+
+You can think of the ! operator as a switch, which flips the evaluated boolean value from true to false and from false to true.
+
+For example if I assign the boolean value of true to the petHungry variable: 
+
+var petHungry = true;
+
+...then I can console log the fact that the pet is no longer hungry by using the ! operator to flip the boolean value stored inside of the petHungry variable, like so:
+
+console.log('Feeding the pet');
+console.log("Pet is hungry: ", !petHungry);
+console.log(petHungry);
+
+    This is the output of the above code:   
+
+    1   Pet is hungry: true
+    2   Feeding the pet
+    3   Pet is hungry: false
+    4   true
+
+The reason for the changed output in the console is because you have flipped the value stored inside the petHungry variable, from true to false.
+
+Notice, however, that the code on line five of the example above still outputs true - that's due to the fact that I didn't reassign the value of the petHungry variable.
+
+Here's how I could permanently change the value stored in the petHungry variable from true to false: 
+
+    1.  var petHungry = true;
+    2.  petHungry = !petHungry;
+
+
+    
+2.  The modulus operator: %
+
+The modulus operator is another mathematical operator in JavaScript. It returns the remainder of division.
+
+To demonstrate how it works, imagine that a small restaurant that has 4 chairs per table, and a total of 5 tables, suddenly receives 22 guests.
+
+How many guests will not be able to sit down in the restaurant?
+
+You can use the modulus operator to solve this.
+
+    1.  console.log(22 % 5); // 2
+
+The output is 2, meaning, when I divide 22 and 5, I get a 4, and the remainder is 2, meaning, there are 2 people who couldn't get a place in this restaurant.
+
+
+
+3.  The equality operator, ==
+
+The equality operator checks if two values are equal.
+
+For example, this comparison returns true: 5 == 5. Indeed, it is true that 5 is equal to 5.
+
+Here's an example of the equality operator returning false:  5 == 6. Indeed, it is true that 5 is not equal to 6.
+
+Additionally, even if one of the compared values is of the number type, and the other is of the string type, the returned value is still true: 5 == "5". 
+
+This means that the equality operator compares only the values, but not the types.
+
+
+
+4.  The strict equality operator, ===
+
+The strict equality operator compares for both the values and the data types.
+
+With the strict equality operator, comparing 5 === 5 still returns true. The values on each side of the strict equality operator have the same value and the same type. However, comparing 5 == "5" now returns false, because the values are equal, but the data type is different.
+
+
+
+5.  The strict inequality operator !==
+
+For the strict inequality operator to return false, the compared values have to have the same value and the same data type. 
+
+For example,  5 !== 5 returns false because it is false to say that the number 5 is not of the same value and data type and another number 5.
+
+However, comparing the number 5 and the string 5, using the strict inequality operator, returns true.
+
+    console.log(5 !== "5")
+
+
+
+6.  The addition assignment operator, +=
+
+The addition assignment operator is used when one wants to accumulate the values stored in a variable.
+
+Here's an example: You are counting the number of overtime hours worked in a week.
+
+You don't have to specify the type of work, you just want to count total hours.
+
+You might code a program to track it, like this:
+
+    var mon = 1;
+    var tue = 2;
+    var wed = 1;
+    var thu = 2;
+    var fri = 3;
+    console.log(mon + tue + wed + thu + fri); // 9
+
+
+You can simplify the above code by using the addition assignment operator, as follows:
+
+    var overtime = 1;
+    overtime += 2;
+    overtime += 1;
+    overtime += 2;
+    overtime += 3;
+    console.log(overtime); // 9
+
+
+7.  The concatenation assignment operator, +=
+This operator's syntax is exactly the same as the addition assignment operator. The difference is in the data type used:
+
+    var longString = "";
+    longString += "Once";
+    longString += " upon";
+    longString += " a";
+    longString += " time";
+    longString += "...";
+    console.log(longString); // "Once upon a time..."

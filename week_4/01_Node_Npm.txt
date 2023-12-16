@@ -1,0 +1,15 @@
+In 2009, a developer named Ryan Dao decided to use Google's JavaScript V8 engine and make it work on the server. Many doubted wether this would be possible or not?The idea caught on and more people started getting on board. This is how Node.js was born and how JavaScript became a language for both front-end and back-end. Node.js is a separate standalone environment. After Node.js became available, it was possible to use JavaScript on the backend or on the server-side.
+
+Node.js comes with a package manager called npm, which stands for Node Package Manager. The package manager allows you to use a large number of libraries and frameworks as Node.js modules. An npm module is a standalone piece of code that has been published on the npm website. Sometimes an npm module is also referred to as an npm package.
+
+There are about 11 million modules in the npm repository.
+
+// Installing Node and NPM
+
+Before installing Node.js and npm on your machine, you first need to verify if it's already installed.  
+
+Verifying the existing installation on Windows On Windows, you can use the WINKEY+r shortcut key, which opens the Run window. Inside the Open: input of the Run window, type cmd and press the enter key. This will open the command prompt.
+
+Inside the command prompt, type: node --version if it return with version --any-- it means you are all set.
+
+Now confirm npm --version  

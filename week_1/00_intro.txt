@@ -1,0 +1,27 @@
+VS Code Commands 
+1. [C+Shift+U] Open Output Box
+2. [C+B] Close and open explorer
+3. [C+`] Open and close terminal // or c+j
+4. [C+X] Cut line on which standing
+5. [C+J] Open terminal
+6. [C+Shift+T] Open last file/tab you Closed
+7. [C+W] Close the tab/file
+
+
+What is JavaScript?
+JavaScript is a programming language that is widely used for web development. It is also called as web language. 
+
+Where I can use JavaScript?
+You can use it for web development, game development, web applications and more.
+
+Learning JavaScript in 2023, worth it?
+Yes, JavaScript is still in demand and preferred as one the top programming for current times. Because, it's usage is wide and all the websites you see are functioning with help of JavaScript. Moreover, the job ratio is also high. After Learning JavaScript you will be able to make websites, web applications and more. 
+
+Sources to learn JavaScript:
+Here are some that I personally use for JavaScript;
+
+1. Free codeCamp
+2. W3Schools
+3. Coursera (free certificates) - visit here how?
+4. YouTube 
+5. class central

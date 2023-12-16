@@ -1,0 +1,161 @@
+methods that exist on arrays:
+
+1. forEach 
+2. filter
+3. map
+
+
+
+
+
+
+1. The forEach() method:
+Arrays in JavaScript come with a handy method that allows you to loop over each of their members. 
+
+Example:
+const fruits = ['kiwi','mango','apple','pear'];
+function appendIndex(fruit, index) {
+    console.log(`${index}. ${fruit}`)
+}
+fruits.forEach(appendIndex);
+
+Output: 
+
+0. kiwi
+1. mango
+2. apple
+3. pear
+
+The forEach() method accepts a function that will work on each array item. 
+That function's first parameter is the current array item itself, 
+and the second (optional) parameter is the index.
+
+The function that the forEach() method needs to use is 
+passed in directly into the method call, like this:
+
+
+const veggies = ['onion', 'garlic', 'potato'];
+veggies.forEach( function(veggie, index) {
+    console.log(`${index}. ${fruit}`);
+});
+
+This makes for more compact code, but perhaps somewhat harder to read. 
+To increase readability, sometimes arrow functions are used.
+
+
+
+
+
+
+
+2. The filter() method:
+It filters your arrays based on a specific test. 
+Those array items that pass the test are returned.
+
+Example:
+const nums = [0,10,20,30,40,50];
+nums.filter( function(num) {
+    return num > 20;
+})
+
+Output: // [30,40,50]
+
+***Similar to the forEach() method, the filter() method also accepts 
+a function and that function performs some work on each of the items in the array.
+
+
+
+
+
+
+
+3. The map method:
+
+This method is used to map each array item over to another array's item, 
+based on whatever work is performed inside the function 
+that is passed-in to the map as a parameter. 
+
+For example:
+
+[0,10,20,30,40,50].map( function(num) {
+    return num / 10
+})
+
+Output: [0,1,2,3,4,5]
+
+
+
+
+⭐ Working with Objects in JavaScript
+
+How to use the object data structure to complete a specific task. 
+This task is to convert an object to an array:
+
+const result = [];
+const drone = {
+    speed: 100,
+    color: 'yellow'
+}
+const droneKeys = Object.keys(drone);
+droneKeys.forEach( function(key) {
+    result.push(key, drone[key])
+})
+console.log(result)
+
+Output:
+['speed',100,'color','yellow']
+
+
+
+
+⭐ Working with Maps in JavaScript
+To make a new Map, you can use the Map constructor:
+
+new Map();
+
+let bestBoxers = new Map();
+bestBoxers.set(1, "The Champion");
+bestBoxers.set(2, "The Runner-up");
+bestBoxers.set(3, "The third place");
+
+console.log(bestBoxers);
+
+
+Output:
+Map(3) {1 => 'The Champion', 2 => 'The Runner-up', 3 => 'The third place'}
+
+
+To get a specific value, you need to use the get() method. For example:  
+bestBoxers.get(1); // 'The Champion'
+
+
+
+
+⭐ Working with Sets in JavaScript
+A set is the collection of unique values
+
+To build a new set you need to build a set constructor
+
+new Set();
+
+const repetitiveFruits = ['apple','pear','apple','pear','plum', 'apple'];
+const uniqueFruits = new Set(repetitiveFruits);
+console.log(uniqueFruits);
+
+Output:
+{'apple', 'pear', 'plum'}
+
+
+
+
+🌟 Other data structures in JavaScript
+Besides the built-in data structures in JavaScript, 
+it's possible to build non-native, custom data structures.
+
+Queues
+
+Linked lists (singly-linked and doubly-linked)
+
+Trees
+
+Graphs

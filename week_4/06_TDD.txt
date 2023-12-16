@@ -1,0 +1,12 @@
+// TDD (Test-Driven Development)
+// is a streamed lined process of writing code that will satify some requierments
+
+//  it's important to note that one of the rules of TDD is that you should write as 
+little code as possible to make the test pass for this test to pass,
+
+TDD brings huge benefits to an organization because it allows for automated testing in 
+any platform projects grow bigger over time and become complex.
+
+with TDD, you are minimizing regressions that is accidental bugs introduced to old code 
+by coding a new requirement and you also have proof that your new implementation 
+is not breaking other parts of the app.

@@ -1,0 +1,21 @@
+JEST Framewor
+
+It is javascript testing framework built by Meta often used for testing code
+
+Jest also supports code coverage. Code coverage is a measure of 
+what percentage of my code is covered by tests.
+
+Mocking allows you to separate the code that you are testing from it's related dependencies.
+In other words, you can use the mocking features to make sure that your unit testing is stand-alone.
+
+it allows the front-end developers to finish their site of the new feature independently. 
+In certain cases, developers can use mocking to ship features faster. 
+
+In Jest you use mocking by employing Jest mock functions. 
+It's also easy to test asynchronous code in Jest.
+
+
+Finally, Jest allows you to perform snapshot testing. 
+Snapshot testing is used by developers to verify that 
+there are no regressions in the DOM of our apps 
+after some changes to the code base are made.

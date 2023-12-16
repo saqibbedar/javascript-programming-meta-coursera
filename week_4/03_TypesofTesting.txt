@@ -1,0 +1,47 @@
+Testing is a piece of software at a high level means making sure that it behaves 
+as expected in any modern software development project. 
+These expectations are recorded as software requirements.
+
+There are different kinds of testing.
+1. e2e testing
+2. Integration testing
+3. Unit testing
+
+
+
+
+1. e2e testing:
+You test your product/app/software as being user to see everything is working perfect. 
+In other words, you're testing the entire finished software product from the perspective 
+of the end user. Now here's something you may find interesting. 
+The person testing the app doesn't have to be a developer.
+
+
+E two E tests are the slowest and take the most time to set up and run. 
+Here are a few examples of eat away testing frameworks available on the market.
+
+Web driver Js Protractor and Cyprus.
+
+
+2. Integration testing:
+Integration testing is testing how parts of your system interact with other parts of your system. 
+In other words, it's testing how separate parts of your apps work together.
+
+et's explore two examples of integration testing software react testing, 
+library and enzyme integration tests are faster and cheaper than 
+E two E tests but not as fast or as cheap as unit testing.
+
+
+
+
+3. Unit testing:
+Unit testing is the process of testing the smallest units of your source code in isolation. 
+A good example of this is functions. 
+A unit is the smallest piece of code that you can test separately from the rest of the app.
+
+
+Practically the smallest unit of testable code in Js is usually a function or a method. 
+Unit tests are self contained. They're meant to test code in isolation, 
+preferably separate from the rest of your app. 
+This makes unit tests fast to run and easy to write. 
+

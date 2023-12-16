@@ -1,0 +1,77 @@
+Data Structure is a wasy to organize data 
+
+For example: for Suppose if we have these numbers '70, 60, 59, 98, 67, 80' to find their 
+average, so we can design follow several ways to find the average of given numbers.
+
+I may represent them as in a string as below:
+const allTest = '70, 60, 59, 98, 67, 80'
+
+Or 
+
+I can create a separate variable for each as below:
+const test1 = 70;
+const test2 = 60;
+const test3 = 59;
+const test4 = 98;
+const test5 = 67;
+const test6 = 80;
+
+but is this a perfect way?
+
+well, I can follow another approach to store numbers in a array
+const grades = [70, 60, 59, 98, 67, 80]
+
+A solution to a coding task depends on the data structure you use. 
+JavaScript is somewhat limited in the types of data structures 
+available compared to other programming languages, such as, Java or Python.
+
+Some of the most common DS are objects, arrays, maps and sets.
+
+
+
+
+1. Object: 
+ an object is unaltered, noniterable collection of key value pairs 
+ and you use objects when you need to store and later access a value under a key.
+
+This way of organizing your data is even more efficient. 
+It involves less typing and we're grouping related data together under a single label. 
+You may recall the many benefits of using a arrays.
+
+An example of using this data structure is when you need to write object orientated, R00P code.
+
+
+
+
+2. Array:
+An array is an ordered iterable collection of values. 
+You use arrays when you need to store and later access a value under an index.
+
+Remember, we do not specify the index, JavaScript does this automatically. 
+You only use the index to access the specific value stored in the array.
+
+
+
+For example, to find the average grade for the task earlier, 
+you could loop over the array and calculate the total sum. 
+
+let grades = [70, 60, 59, 98, 67, 80]
+sumOfGrades = 0
+
+for (i=0; i<grades.length; i++){
+    sumOfGrades += grades[i]
+}
+console.log(sumOfGrades / grades.length) // 72.33
+
+
+
+
+
+3. Map:
+It is like an array because it's iterable. 
+However, it consists of key value pairs. 
+It's important not to confuse a map with an object. 
+With maps any value can be used as a key. With objects, keys can only be strings or symbols.
+
+4. Set:
+It is a collection where each item in the collection must be unique.
