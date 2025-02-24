@@ -1,4 +1,4 @@
-// Random Methom - allows you to generate a decimal number between 0 and 0.99.
+// Random Method - allows you to generate a decimal number between 0 and 0.99.
 Math.random();
 
 // let decimal = Math.random();

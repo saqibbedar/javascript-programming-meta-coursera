@@ -12,7 +12,7 @@ for (let i = 1; i <= 6; i++) {
 after seeing the first condition that a =0 and also a<=0 
 then we applied the addition property that is a++ to add values to zero 
 until it is less than or equal to the number. 
-Becuase we choose zero so further addition will not take palce as zero into zero remains the zero.*/
+Because we choose zero so further addition will not take place as zero into zero remains the zero.*/
 
 // 4 table using for loop
 for (i = 0; i<= 41; i = i + 4){

@@ -28,19 +28,12 @@ available compared to other programming languages, such as, Java or Python.
 Some of the most common DS are objects, arrays, maps and sets.
 
 
-
-
 1. Object: 
- an object is unaltered, noniterable collection of key value pairs 
- and you use objects when you need to store and later access a value under a key.
+ an object is unaltered, non-iterable collection of key value pairs and you use objects when you need to store and later access a value under a key.
 
-This way of organizing your data is even more efficient. 
-It involves less typing and we're grouping related data together under a single label. 
-You may recall the many benefits of using a arrays.
+This way of organizing your data is even more efficient. It involves less typing and we're grouping related data together under a single label. You may recall the many benefits of using a arrays.
 
 An example of using this data structure is when you need to write object orientated, R00P code.
-
-
 
 
 2. Array:
@@ -62,9 +55,6 @@ for (i=0; i<grades.length; i++){
     sumOfGrades += grades[i]
 }
 console.log(sumOfGrades / grades.length) // 72.33
-
-
-
 
 
 3. Map:

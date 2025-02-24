@@ -10,7 +10,7 @@ let storeManagerHealth = 38;
 
 // This is where objects come in we can resolver this by using objects
 
-// let's create a sotremanager using objects
+// let's create a storeManager using objects
 
 let storeManager = {}
 storeManager .health = 38;

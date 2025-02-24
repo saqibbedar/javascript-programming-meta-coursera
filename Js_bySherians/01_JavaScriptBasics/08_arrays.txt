@@ -1,0 +1,6 @@
+// arrays are groups of values in square brackets []
+// arrays are always count with 0 and index in arrays is counting
+var arr = [1, 2, 3, 4, 5];
+// now to target 1 here we will write 0 
+arr[0];
+

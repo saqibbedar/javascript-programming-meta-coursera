@@ -2,7 +2,6 @@
 
 // creat an object with three properties
 
-
 var saqib = {
     likeApples : true,
     readBooks : false,

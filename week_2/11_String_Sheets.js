@@ -18,7 +18,7 @@ console.log(person .indexOf('A')); // A is at 0 index
 
 // split - Split the sting into a array 
 
-console.log(person.split('s')) // ['Af', 'ar']
+console.log(person.split("s")) // ['Af', 'ar']
 
 // casing of strings
 

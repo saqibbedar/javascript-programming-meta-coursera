@@ -6,9 +6,6 @@ methods that exist on arrays:
 
 
 
-
-
-
 1. The forEach() method:
 Arrays in JavaScript come with a handy method that allows you to loop over each of their members. 
 

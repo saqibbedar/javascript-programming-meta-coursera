@@ -1,15 +1,15 @@
 *** Data types in JavaScript
 
 What are data types?
-Data types are the ways to store the data in diffrent ways, it can be numbers, strings, Boolean and more.
+Data types are the ways to store the data in different ways, it can be numbers, strings, Boolean and more.
 There are 7 primitive data types in JavaScript, they are as follows;
 
 1. String: Store the values such as titles
 2. Numbers: Store numbers for calculations, pricing etc.
-3. Boolean: It has only two values true or false. It helps you in desicion making.
-4. Null: It has no value or it represnts the absense of value.
-5. Undefined: It refers to the those variables which are not been assinged yet.
+3. Boolean: It has only two values true or false. It helps you in decision making.
+4. Null: It has no value or it represents the absence of value.
+5. Undefined: It refers to the those variables which are not been assigned yet.
 6. BigInt: an extra large box that can accommodate a much greater range of numbers than the number data type.
 7. Symbol: it can be used as a unique identifier.
 
-Note: We have used these types in our previous expamles. Mostly, as a beginner programmer you will encounter with the first four data types. However, it is better to know all the types.
+Note: We have used these types in our previous examples. Mostly, as a beginner programmer you will encounter with the first four data types. However, it is better to know all the types.

@@ -4,24 +4,24 @@ Operators are used to perform operations on variables and values. An operator is
 Why operators are used?
 Operators are used to control the flow of a program that meets certain criteria.
 
-Assignment operators: Used for simple arithematic.
-You can use +, -, *, /, the numbers by just following these simple arithematic operators.
+Assignment operators: Used for simple arithmetic.
+You can use +, -, *, /, the numbers by just following these simple arithmetic operators.
     •  Here is how? 
     2 + 2 = 4; Addition Operator [a = 2 + 2; console.log(a) = 4]
-    2 - 1 = 1; Subtration Operator
+    2 - 1 = 1; Subtraction Operator
     2 / 2 = 1; division Operator
-    2 * 2 = 4; Muliply Operators
+    2 * 2 = 4; Multiply Operators
     2 % 2 = ; Modulus
 
 Logical Operators:  used in JavaScript to determine if something is true or false. For example, the logical operator named end, which you can use to check the two or more conditions are true. 
     
     1. And operator: use to check the two or more conditions are true. [a<10 && a>20] For this to be satisfied, both statements must be true.
 
-    2. OR operaor: checks for at least one of the statements to be true. [a>5 || a<15]
+    2. OR operator: checks for at least one of the statements to be true. [a>5 || a<15]
 
     3. NOT: returns a false value if the result is true. [!]
 
-Comparsion Operators: check if they are greater than, less than, equal or not equal to each other.
+Comparison Operators: check if they are greater than, less than, equal or not equal to each other.
     
     1. Greater than ( > ) 3>1
     2. Less than ( < )    3<5

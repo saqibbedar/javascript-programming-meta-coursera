@@ -22,7 +22,6 @@ console("The above will never run")
   1. Reference error - we got above (undefined values)
   2. Syntax error - error in the structure of code 
   3. Type error - mixing the things
-
 */
 
 

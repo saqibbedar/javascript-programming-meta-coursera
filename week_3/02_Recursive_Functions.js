@@ -1,4 +1,4 @@
-// calling an anonmyous function by wraping a function in ()
+// calling an anonymous function by warping a function in ()
 (function () {
     console.log('hello world')
 })
@@ -17,8 +17,10 @@ myFunction()
 let counter = 3
 function myCounter() {
     console.log(counter)
-    counter = counter -1
-    if (counter === 0) return
+    counter -= 1
+    if (counter === 0) {
+        return
+    } 
     myCounter()
 }
 myCounter()

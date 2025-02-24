@@ -15,7 +15,7 @@ functions and output statements.
 
 // ***Functions inside objects are known as Methods()
 
-// Example of Functioanl Programming
+// Example of Functional Programming
 var shoes = 100
 var tax = 1.5
 function totalprice(shoes, tax) {
@@ -23,7 +23,6 @@ function totalprice(shoes, tax) {
 }
 var finalPrice = totalprice(shoes, tax)
 console.log(finalPrice)
-
 
 // Example of OOP
 var purchase = {

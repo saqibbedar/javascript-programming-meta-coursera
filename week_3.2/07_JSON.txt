@@ -39,7 +39,7 @@ say stockPrices.json, that you could access from their servers.
 It's all about getting stringified JSON data from a server, 
 converting ("parsing") that data into JS objects in your own code, 
 working with the converted data in your own code, and perhaps even 
-stringifying the result into JSON, so that this data is then ready to, 
+stringified the result into JSON, so that this data is then ready to, 
 for example, be sent back to a server after your code has processed it locally.
 
 

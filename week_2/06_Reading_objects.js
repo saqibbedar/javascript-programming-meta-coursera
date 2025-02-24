@@ -10,9 +10,9 @@ let user2 = {
 }
 console.log(user2);
 
-// furthermore I can print any single value among these as by declearing a single variable
+// furthermore I can print any single value among these as by declaring a single variable
 
-console.log(user2.name); // value John will be printed because name is decleared
+console.log(user2.name); // value John will be printed because name is declared
 
 // build object to sell a house
 

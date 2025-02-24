@@ -14,7 +14,6 @@ function arrayList(arr){
     for (var i=0; i < arr.length; i++){
         console.log(i, arr[i]);
     }
-
 }
 var kitchen1 = ["Salt", "Sugar", "black Papers"];
 arrayList(kitchen1)
